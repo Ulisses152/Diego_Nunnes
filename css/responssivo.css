@@ -1,0 +1,239 @@
+/*MENU*/
+@media only screen and (max-width: 768px){
+
+
+
+   /********menu-mobile*******/
+
+
+   .box-icon{
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px #bdbbbb solid;
+    border-top: 1px #bdbbbb solid;
+
+   }
+   .icon{
+       color: white;
+       font-size: 2.2rem;
+   }
+
+   
+
+  
+    .menu{
+        
+        
+        width: 100%;
+        padding: 0;
+        
+        
+        
+      }
+    .menu ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu ul li{
+        line-height: 2.5rem;
+        border-bottom: 1px #bdbbbb solid;
+        height: 2.5rem;
+    }
+    .menu ul a {
+      font-size:clamp(.9rem, 1.2vw, 2.7rem);
+      color: #ffffff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family:'Playfair', serif;
+    
+    }
+   /********menu-mobile*******/
+   
+
+    /*******depoimentos******/
+
+    .depo{
+        width: 40%;
+    }
+
+    /*********GALERIA******/
+
+    .galery li{
+        width: 50%;
+    }
+    .min{
+        height: 13rem;
+    }
+    .img-height{
+        height: 26rem;
+
+    }
+    .min:hover{
+        box-shadow: 0;
+        transition: none;
+      }
+
+    .img-height:hover{
+        box-shadow: 0;
+        transition: none;
+    }
+
+    /********contato******/
+    .info-contato h1 {
+        padding: 6% 0 6% 0;
+        font-size: 4.3rem;
+        font-family: 'Merriweather', serif;
+        color: rgb(233, 219, 143);
+       
+    }
+
+    .info-contato h2 {
+        font-family: 'Merriweather', serif;
+        font-size: 1.1rem;
+        padding: 2% 4%;
+        color: white;
+    }
+
+
+    .endereco p {
+        font-family: 'Merriweather', serif;
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        padding: 2% 4%;
+        color: white;
+    }
+
+    .horarios {
+        font-size: 1rem;
+        padding: 2% 4%;
+        color: white;
+    }
+
+}
+@media only screen and (max-width: 600px){
+
+    .header-logo{
+        width: 20%;
+    }
+
+    .depo{
+        width: 43%;
+    }
+
+    .img-height{
+        height: 23rem;
+
+    }
+
+    .min{
+        height: 12rem;
+    }
+
+    .info-contato h1{
+        font-size: 4rem;
+    }
+    .box-img img{
+        height: 23rem;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    
+    
+    /*****depo*****/
+
+    #depoimentos{
+        padding-bottom: 0;
+    }
+    .depo{
+        width: 100%;
+        padding: 8%;
+        border-top: 1px #ececec solid;
+        height: 100vh;
+    }
+    .depo-sub-title{
+        padding-bottom: 4%;
+    }
+    
+    .text-depo{
+        padding: 6%;
+    }
+    /********galeria*****/
+    .title-galery h1{
+        font-size: 3rem;
+    }
+
+    .title-galery h2{
+        font-size: 1.1rem;
+        padding-bottom: 4%;
+    }
+
+    .galery ul{
+        margin: auto;
+        width: 100%;
+    }
+
+    .galery li{
+        width: 100%;
+    }
+
+   .img-height{
+       height: 100vh;
+       padding: 1%;
+   }
+   .min{
+       height: 50vh;
+       padding: 1%;
+   }
+
+   .box-img img{
+    height: 19rem;
+}
+}
+
+
+@media only screen and (min-width: 768px){
+    .box-icon{
+        display: none;
+    }
+
+    .img-height:hover{
+        box-shadow: 4px 5px 10px 0px black;
+        transition: .5s;
+      }
+
+      .min:hover{
+        box-shadow: 4px 5px 10px 0px black;
+        transition: .5s;
+      }  
+
+      #navbar ul a:hover{
+        border-bottom: 1px rgb(229 219 143 / 1) solid;
+        transition: .5s;
+      }
+      
+      #prev:hover{
+        background-color: rgb(10,10,10,.8);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: .4s;
+      }
+      #next:hover{
+        background-color: rgb(10,10,10,.8);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: .4s;
+      }
+
+      .menu-closed{
+          max-height: 100%;
+      }
+}
+
+
