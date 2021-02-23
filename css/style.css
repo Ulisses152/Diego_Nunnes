@@ -190,9 +190,9 @@ body{
 
   color: rgb(255 230 92);
 }
-small{
+.h2small{
   text-transform: uppercase;
-  font-size: clamp(1rem,1.5vw,2rem);
+  font-size: 1.5rem;
   font-family:'Playfair', serif;
 
   color: rgb(60, 60, 60);
