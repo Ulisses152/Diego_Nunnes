@@ -192,7 +192,7 @@ body{
 }
 small{
   text-transform: uppercase;
-  font-size: clamp(1rem,1.5vw,2rem);
+  font-size: 1.8rem;
   font-family:'Playfair', serif;
 
   color: rgb(60, 60, 60);
