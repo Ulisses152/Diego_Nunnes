@@ -11,8 +11,10 @@
   <meta name="author" content="Ulisses Doria">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/responssivo.css">
-  
-  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel = "preconnect" href = "https://fonts.gstatic.com">
   <script src="https://kit.fontawesome.com/cd8f7a1a60.js" crossorigin="anonymous"></script>
 
@@ -43,6 +45,7 @@
     <div class="box-icon">
       <a href="javascript:void(0);" id="myBtn" class="icon">&#9776;</a>
     </div>
+    
 
     <div id="box-menu" class="menu-closed">
       <nav id="navbar" class="menu">
@@ -61,12 +64,42 @@
     
 </div>
 
-    <div class="header-foto">
-      
-    </div>
+    
     
 
   </header>
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Imagens/9.jpg" alt="Los Angeles">
+      </div>
+      <div class="carousel-item">
+        <img src="./Imagens/6.jpg" alt="Chicago">
+      </div>
+      <div class="carousel-item">
+        <img src="./Imagens/7.jpg" alt="New York">
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
   <section id="bio">
     <div class="box-bio">
     <div class="foto-diego">

@@ -19,6 +19,10 @@
        color: white;
        font-size: 2.2rem;
    }
+   .box-icon a:hover {
+       color: white;
+       text-decoration: none;
+   }
 
    
 
@@ -135,10 +139,14 @@
     }
 
     .info-contato h1{
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
     .box-img img{
         height: 23rem;
+    }
+
+    .depo-title{
+        font-size: 2.8rem;
     }
 }
 
@@ -185,18 +193,63 @@
 
    .img-height{
        height: 100vh;
-       padding: 1%;
+       padding: 1% 4%;
    }
    .min{
        height: 50vh;
-       padding: 1%;
+       padding: 1% 4%;
    }
 
    .box-img img{
     height: 19rem;
-}
+
+   
+
+    }
+
+    .header-foto{
+        min-height: 60vh;
+        background-attachment: inherit;
+    }
+
+    .parallax, .parallax-2 {
+        min-height: 92vh;
+        background-attachment: inherit;
+    }
 }
 
+@media only screen and (max-width:356px){
+    .title-section, .info-contato h1, .title-galery h1, .depo-title{
+        font-size: 2.3rem;
+    }
+    .header-logo{
+        width: 29%;
+    }
+    .header-title h1{
+        font-size: 1.8rem;
+    }
+    .header-title h2{
+        font-size: 1.3rem;
+    }
+    .redes-sociais i{
+        font-size: 2.2rem;
+    }
+
+    .parallax, .parallax-2 {
+        min-height: 60vh;
+        background-attachment: inherit;
+    }
+
+    .min {
+        height: 40vh;
+    }
+    .img-height{
+        height: 90vh;
+    }
+    .fone-email{
+        font-size: 1rem;
+    }
+}
 
 @media only screen and (min-width: 768px){
     .box-icon{
