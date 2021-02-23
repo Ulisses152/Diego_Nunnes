@@ -220,7 +220,7 @@
 
 @media only screen and (max-width:356px){
     .title-section, .info-contato h1, .title-galery h1, .depo-title{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
    small{
       font-size: 1rem;
@@ -249,14 +249,14 @@
         height: 40vh;
     }
     .img-height{
-        height: 90vh;
+        height: 92vh;
     }
     .fone-email{
         font-size: 1rem;
     }
    
    .depo{
-      padding: 5%; 
+      padding: 3%; 
    }
 }
 
