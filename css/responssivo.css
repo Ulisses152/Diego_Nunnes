@@ -216,9 +216,12 @@
    .box-img img{
     height: 15rem;
 
-   
+  }
 
-    }
+    .box-img .foto-alta{
+     height: 25rem;
+     width: 20rem;
+}
 
     .header-foto{
         min-height: 60vh;
