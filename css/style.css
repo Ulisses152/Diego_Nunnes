@@ -446,7 +446,7 @@ a:hover{
 
 /*CONTATO*/
 #contato{
-  min-height: 87vh;
+  min-height: 80vh;
 
   background:linear-gradient(to top,rgb(19, 18, 18),rgb(170, 170, 170) );
 }
