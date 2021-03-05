@@ -308,7 +308,7 @@ body{
   position: relative;
   text-align: center;
   background-color:#a2a2a2;
-  min-height: 100vh;
+  min-height: 88vh;
 
 }
 .title-galery h1{
@@ -446,7 +446,7 @@ a:hover{
 
 /*CONTATO*/
 #contato{
-  min-height: 100vh;
+  min-height: 87vh;
 
   background:linear-gradient(to top,rgb(19, 18, 18),rgb(170, 170, 170) );
 }
