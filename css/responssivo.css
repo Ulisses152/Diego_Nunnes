@@ -1,4 +1,11 @@
 /*MENU*/
+@media only screen and (min-width: 1200px){
+    .depo{
+        width: 25%;
+    }
+
+}
+
 @media only screen and (max-width: 768px){
 
 
@@ -62,7 +69,7 @@
     /*******depoimentos******/
 
     .depo{
-        width: 40%;
+        width: 35%;
     }
 
     /*********GALERIA******/
@@ -161,16 +168,17 @@
     }
     .depo{
         width: 100%;
-        padding: 8%;
+        padding-bottom: 6%;
         border-top: 1px #ececec solid;
-        height: 100vh;
+        height: 85vh;
     }
     .depo-sub-title{
         padding-bottom: 4%;
     }
     
     .text-depo{
-        padding: 6%;
+        padding: 4%;
+        box-sizing: content-box;
     }
     /********galeria*****/
     .title-galery h1{
@@ -192,11 +200,11 @@
     }
 
    .img-height{
-       height: 100vh;
+       height: 85vh;
        padding: 1% 4%;
    }
    .min{
-       height: 50vh;
+       height: 45vh;    
        padding: 1% 4%;
    }
 
@@ -213,59 +221,90 @@
     }
 
     .parallax, .parallax-2 {
-        min-height: 92vh;
+        min-height: 70vh;
         background-attachment: inherit;
     }
 }
 
 @media only screen and (max-width:356px){
+    
+    .foto-diego img{
+        width: 10rem;
+        height: 10rem;
+    }
+    
     .info-contato h1, .title-galery h1, .depo-title{
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
     .title-section {
-        font-size: 1.8rem;
+        font-size: 1.6rem !important;
       }
+
+    .h1, h1{
+        font-size: 1.8rem;
+    }
 
     .h2small{
         font-size: .9rem;
     }  
 
     .header-logo{
-        width: 29%;
+        width: 40%;
     }
     .header-title h1{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .header-title h2{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        margin-bottom: 0;
     }
     .redes-sociais i{
         font-size: 2.2rem;
     }
 
     .parallax, .parallax-2 {
-        min-height: 45vh;
+        min-height: 40vh;
         background-attachment: inherit;
     }
+
 
     .min {
         height: 40vh;
     }
     .img-height{
-        height: 90vh;
+        height: 85vh;
     }
+    .box-img img{
+        height: 16rem;
+    }
+    .box-img .foto-alta{
+        height: 25rem;
+        width: 20rem;
+    }
+
     .fone-email{
         font-size: 1rem;
     }
     .depo{
+        max-height: 85vh;
         box-sizing: content-box;
-        padding: 4%;
+        padding: 4% 8% ;
+    }
+    .depo-img{
+        width: 10rem;
+        height: 10rem;
     }
 }
 
 @media only screen and (min-width: 768px){
     .box-icon{
         display: none;
+    }
+
+    #close.bt:hover{
+        text-decoration: none;
+        color: white;
+        
     }
 
     .img-height:hover{
@@ -288,12 +327,16 @@
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         transition: .4s;
+        text-decoration: none;
+        color: white;
       }
       #next:hover{
         background-color: rgb(10,10,10,.8);
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         transition: .4s;
+        text-decoration: none;
+        color: white;
       }
 
       .menu-closed{
